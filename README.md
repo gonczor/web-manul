@@ -1,0 +1,1 @@
+https://travis-ci.org/gonczor/web-manul.svg?branch=master
