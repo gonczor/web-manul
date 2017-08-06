@@ -6,5 +6,5 @@ script: python main.py test
 
 branches:
   only:
-  - master
-  - develop
+    - master
+    - develop
