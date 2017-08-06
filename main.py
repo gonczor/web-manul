@@ -2,7 +2,7 @@ import sys
 
 from flask import Flask
 
-from .urls import register_urls
+from urls import register_urls
 
 
 def create_app():
@@ -14,7 +14,7 @@ def create_app():
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         if sys.argv[1] == 'test':
-            from .tests import runner
+            from tests import runner
             runner.run()
 
     else:

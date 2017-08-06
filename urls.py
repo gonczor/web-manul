@@ -1,4 +1,4 @@
-from .views.index import index
+from views.index import index
 
 
 def register_urls(app):
