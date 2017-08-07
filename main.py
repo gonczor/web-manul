@@ -1,15 +1,6 @@
 import sys
 
-from flask import Flask
-
-from urls import register_urls
-
-
-def create_app():
-    production_app = Flask(__name__)
-    production_app = register_urls(production_app)
-    return production_app
-
+from helpers import create_app
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
